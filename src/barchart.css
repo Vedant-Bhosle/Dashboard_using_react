@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    /* background:chartreuse; */
+   
+   
+    width: 300px;
+}
+.heading{
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+.text{margin-left: 5px;}
+.barcharticon{
+
+  display: block;
+  float: right;
+}

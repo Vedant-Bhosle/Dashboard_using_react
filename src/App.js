@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Barchart from './components/Barchart'
+import First from './components/First'
+import Pichart from './components/Pichart'
 
-function App() {
+
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <First />
+      {/* <Barchart name="Expense" sentence="$ 750,00 Money out for this week" /> */}
+      {/* <Pichart /> */}
+    </>
+  )
 }
 
-export default App;
